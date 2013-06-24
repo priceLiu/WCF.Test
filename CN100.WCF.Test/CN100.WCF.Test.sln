@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CN100WCF", "CN100WCF", "{306E177A-0870-481F-9191-84980B93B8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCFTest", "WCFTest", "{2316075B-18FE-4109-912B-41345D5F014E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{4F95A841-1F7E-4535-95AD-6D16860214D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{8B802682-DF3A-4B0E-A937-3D50CE101D0F}"
+	ProjectSection(SolutionItems) = preProject
+		CN100WCF\DLL\CN100.EnterprisePlatform.Cache.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Cache.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.Configuration.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Configuration.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.ORM.dll = CN100WCF\DLL\CN100.EnterprisePlatform.ORM.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.Utility.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Utility.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.Wcf.Core.Config.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Wcf.Core.Config.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.Wcf.Core.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Wcf.Core.dll
+		CN100WCF\DLL\CN100.EnterprisePlatform.Web.Core.dll = CN100WCF\DLL\CN100.EnterprisePlatform.Web.Core.dll
+		CN100WCF\DLL\CN100WCF.dll = CN100WCF\DLL\CN100WCF.dll
+		CN100WCF\DLL\Common.Logging.dll = CN100WCF\DLL\Common.Logging.dll
+		CN100WCF\DLL\Newtonsoft.Json.Net35.dll = CN100WCF\DLL\Newtonsoft.Json.Net35.dll
+		CN100WCF\DLL\Oracle.DataAccess.dll = CN100WCF\DLL\Oracle.DataAccess.dll
+		CN100WCF\DLL\Quartz.dll = CN100WCF\DLL\Quartz.dll
+		CN100WCF\DLL\SQLite.Interop.dll = CN100WCF\DLL\SQLite.Interop.dll
+		CN100WCF\DLL\System.Data.SQLite.dll = CN100WCF\DLL\System.Data.SQLite.dll
+		CN100WCF\DLL\Wcf.Test.Hosting.exe = CN100WCF\DLL\Wcf.Test.Hosting.exe
+		CN100WCF\DLL\Wcf.Test.Hosting.exe.config = CN100WCF\DLL\Wcf.Test.Hosting.exe.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHost", "WCFTest\WCFHost\WCFHost.csproj", "{A4DA596B-B920-4275-AED9-2040F121DE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFStyle", "WCFTest\WCFStyle\WCFStyle.csproj", "{9D791EFD-3E28-440C-9316-7B8EF4918470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CN100WCF", "CN100WCF\CN100WCF.csproj", "{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{F7265C68-1C9A-4073-95A4-7C0619D75EEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Debug|x86.ActiveCfg = Debug|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Debug|x86.Build.0 = Debug|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Release|Any CPU.ActiveCfg = Release|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Release|x86.ActiveCfg = Release|x86
+		{A4DA596B-B920-4275-AED9-2040F121DE3B}.Release|x86.Build.0 = Release|x86
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9D791EFD-3E28-440C-9316-7B8EF4918470}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Debug|x86.ActiveCfg = Debug|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Debug|x86.Build.0 = Debug|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Release|Any CPU.ActiveCfg = Release|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Release|x86.ActiveCfg = Release|x86
+		{F7265C68-1C9A-4073-95A4-7C0619D75EEF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B802682-DF3A-4B0E-A937-3D50CE101D0F} = {306E177A-0870-481F-9191-84980B93B8BB}
+		{B1E8189C-F7B7-44E9-8AE5-81A31CB42797} = {306E177A-0870-481F-9191-84980B93B8BB}
+		{4F95A841-1F7E-4535-95AD-6D16860214D5} = {2316075B-18FE-4109-912B-41345D5F014E}
+		{A4DA596B-B920-4275-AED9-2040F121DE3B} = {2316075B-18FE-4109-912B-41345D5F014E}
+		{9D791EFD-3E28-440C-9316-7B8EF4918470} = {2316075B-18FE-4109-912B-41345D5F014E}
+	EndGlobalSection
+EndGlobal
